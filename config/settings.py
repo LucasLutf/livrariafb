@@ -56,6 +56,7 @@ REST_FRAMEWORK = {
  
 }
 
+AUTH_USER_MODEL = "livraria.Usuario"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
