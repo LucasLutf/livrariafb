@@ -60,6 +60,12 @@ version = "2022.7.1"
 summary = "World timezone definitions, modern and historical"
 
 [[package]]
+name = "setuptools"
+version = "67.6.0"
+requires_python = ">=3.7"
+summary = "Easily download, build, install, upgrade, and uninstall Python packages"
+
+[[package]]
 name = "sqlparse"
 version = "0.4.3"
 requires_python = ">=3.5"
@@ -73,7 +79,7 @@ summary = "Provider of IANA time zone data"
 
 [metadata]
 lock_version = "4.1"
-content_hash = "sha256:725c621442602d4ed11a2490624a1d9d00673b881e4580b6ac755726a0f55cd0"
+content_hash = "sha256:6c59deeb305bf74802fd2d333356dde8da91b5c5e4a76ea5c6edb5c9c1478dde"
 
 [metadata.files]
 "asgiref 3.6.0" = [
@@ -103,6 +109,10 @@ content_hash = "sha256:725c621442602d4ed11a2490624a1d9d00673b881e4580b6ac755726a
 "pytz 2022.7.1" = [
     {url = "https://files.pythonhosted.org/packages/03/3e/dc5c793b62c60d0ca0b7e58f1fdd84d5aaa9f8df23e7589b39cc9ce20a03/pytz-2022.7.1.tar.gz", hash = "sha256:01a0681c4b9684a28304615eba55d1ab31ae00bf68ec157ec3708a8182dbbcd0"},
     {url = "https://files.pythonhosted.org/packages/2e/09/fbd3c46dce130958ee8e0090f910f1fe39e502cc5ba0aadca1e8a2b932e5/pytz-2022.7.1-py2.py3-none-any.whl", hash = "sha256:78f4f37d8198e0627c5f1143240bb0206b8691d8d7ac6d78fee88b78733f8c4a"},
+]
+"setuptools 67.6.0" = [
+    {url = "https://files.pythonhosted.org/packages/25/f3/d68c20919bc774c6cb127f1762f2f2f999d700a58198556e883dd3700e58/setuptools-67.6.0.tar.gz", hash = "sha256:2ee892cd5f29f3373097f5a814697e397cf3ce313616df0af11231e2ad118077"},
+    {url = "https://files.pythonhosted.org/packages/c3/9e/8a7ba2c9984a060daa6c6f9fff4d576b7ace3936239d6b771541eab972ed/setuptools-67.6.0-py3-none-any.whl", hash = "sha256:b78aaa36f6b90a074c1fa651168723acbf45d14cb1196b6f02c0fd07f17623b2"},
 ]
 "sqlparse 0.4.3" = [
     {url = "https://files.pythonhosted.org/packages/97/d3/31dd2c3e48fc2060819f4acb0686248250a0f2326356306b38a42e059144/sqlparse-0.4.3-py3-none-any.whl", hash = "sha256:0323c0ec29cd52bceabc1b4d9d579e311f3e4961b98d174201d5622a23b85e34"},
