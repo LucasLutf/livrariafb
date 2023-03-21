@@ -2,6 +2,7 @@ from django.contrib import admin
 
 from livraria.models import Autor, Categoria, Editora, Livro
 from django.contrib.auth.admin import UserAdmin
+from .models.usuario import Usuario
 from django.utils.translation import gettext_lazy as _
 
 class UsuarioAdmin(UserAdmin):
@@ -24,7 +25,7 @@ class UsuarioAdmin(UserAdmin):
     )
     
     
-# admin.site.register(Usuario, UsuarioAdmin)
+admin.site.register(Usuario, UsuarioAdmin)
 admin.site.register(Autor)
 admin.site.register(Categoria)
 admin.site.register(Editora)
