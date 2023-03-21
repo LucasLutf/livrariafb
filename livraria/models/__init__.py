@@ -1,3 +1,6 @@
+from django.db import models
+
+
 from .autor import Autor
 from .livro import Livro
 from .editora import Editora
