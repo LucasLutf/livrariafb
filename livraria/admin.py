@@ -1,14 +1,14 @@
 from django.contrib import admin
-
-from livraria.models import Autor, Categoria, Editora, Livro
+from .models import Autor, Categoria, Editora, Livro
 from django.contrib.auth.admin import UserAdmin
 from .models.usuario import Usuario
 from django.utils.translation import gettext_lazy as _
 
+
 class UsuarioAdmin(UserAdmin):
     fieldsets = (
         (None, {"fields": ("username", "password")}),
-        (_("Personal info"),{"fields": ("first_name", "last_name", "email", "cpf", "telefone", "data_nascimento")}),
+        (_("Personal info"), {"fields": ("first_name", "last_name", "email", "cpf", "telefone", "data_nascimento")}),
         (
             _("Permissions"),
             {
@@ -21,7 +21,7 @@ class UsuarioAdmin(UserAdmin):
                 ),
             },
         ),
-        (_("Importante dates"), {"fields": ("last_login", "date_joined")}),
+        (_("Important dates"), {"fields": ("last_login", "date_joined")}),
     )
     
     
