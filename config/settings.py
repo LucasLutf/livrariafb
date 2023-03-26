@@ -158,6 +158,7 @@ MEDIA_ENDPOINT = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 FILE_UPLOAD_PERMISSIONS = 0o640
 
+# Carrega as variáveis de ambiente do sistema operacional e as prepara para usá-las
 env = environ.Env()
 environ.Env.read_env((os.path.join(BASE_DIR, '.env')))
 
